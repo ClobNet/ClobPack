@@ -53,11 +53,11 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-    
-          git tag ${{ steps.set_version.outputs.new_version }}
-          git push origin ${{ steps.set_version.outputs.new_version }}
-          git push
 
+          new_version="${{ steps.set_version.outputs.new_version }}"
+          git tag $new_version
+          git push origin $new_version
+          git push
         shell: /usr/bin/bash -e {0}
         if: success()
 
@@ -70,4 +70,3 @@ jobs:
             Describe your release here
           files: /tmp/pack.zip
         if: success()
-        
