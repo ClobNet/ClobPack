@@ -1,0 +1,232 @@
+{
+	"providers": [
+		
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/manager.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"ⲉ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/guide.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㒋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/mod.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/owner.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/dev.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐫"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/team.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐻"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/admin.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/club.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑫"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/media.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑻"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/player.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/dev-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐜"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/guide-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐬"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/mod-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐼"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/admin-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑌"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/manager-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑜"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/owner-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑬"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/titles/team-crown.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑼"
+			]
+		
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine:realm_logo.png",
+			"ascent": 32,
+			"height": 80,
+			"chars": [
+				"셚셙",
+				"션셗"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine:space_split.png",
+			"ascent": -32768,
+			"height": 0,
+			"chars": [
+				"ꌄ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/images/spawnsign1.png",
+			"ascent": 20,
+			"height": 96,
+			"chars": [
+				"氏氐"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/images/spawnsign1.png",
+			"ascent": 250,
+			"height": 388,
+			"chars": [
+				"温灏"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/images/spawnsign1.png",
+			"ascent": 350,
+			"height": 578,
+			"chars": [
+				"浮漈"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/images/spawnsign1.png",
+			"ascent": 47,
+			"height": 80,
+			"chars": [
+				"撤搒"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "clubmine/images/spawnsign1.png",
+			"ascent": 63,
+			"height": 120,
+			"chars": [
+				"섏섐"
+			]
+		},
+				{
+			"type": "bitmap",
+			"file": "clubmine:space_split.png",
+			"ascent": -32768,
+			"height": -3,
+			"chars": [
+				"ꈂ"
+			]
+		}
+	]
+}
