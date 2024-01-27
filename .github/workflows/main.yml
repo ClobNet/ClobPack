@@ -21,7 +21,7 @@ jobs:
       - name: Set Version
         id: set_version
         run: |
-          current_version=$(git tag --sort=-v:refname | head -n 1)
+          current_version=$(git describe --tags --abbrev=0)
           version_parts=(${current_version//./ })
           major=${version_parts[0]}
           minor=${version_parts[1]}
