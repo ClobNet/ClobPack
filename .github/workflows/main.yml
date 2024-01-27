@@ -22,20 +22,21 @@ jobs:
         id: set_version
         run: |
           current_version=$(git describe --tags --abbrev=0)
+          echo "Current version: ${current_version}"
           version_parts=(${current_version//./ })
           major=${version_parts[0]}
           minor=${version_parts[1]}
           patch=${version_parts[2]}
-      
+
           if [ -z "$patch" ]; then
             patch=0
           else
             patch=$((patch + 1))
           fi
-      
+
           new_version="${major}.${minor}.${patch}"
           echo "Setting new version: ${new_version}"
-      
+
           echo "::set-output name=new_version::v${new_version}"
         shell: bash
           
