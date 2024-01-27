@@ -1,22 +1,16 @@
-name: Optimize and Release Resource Pack
-on:
-  push:
-    branches:
-      - main
-
+name: Optimize resource pack
+on: [push]
 permissions:
   contents: write
-
 jobs:
-  optimize_and_release:
-    name: Optimize and Release Resource Pack
+  packsquash:
+    name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
-
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
@@ -28,8 +22,7 @@ jobs:
             # Set a custom output file path to work with the generated ZIP file
             # without needing to download its artifact in a separate step
             output_file_path = '/tmp/pack.zip'
-
-      - name: Set Version and Commit
+      - name: Set Version
         id: set_version
         run: |
           current_version=$(git tag --sort=-v:refname | head -n 1)
@@ -49,24 +42,8 @@ jobs:
 
           echo "::set-output name=new_version::$new_version"
 
-      - name: Commit and Push Version
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-
-          new_version="${{ steps.set_version.outputs.new_version }}"
-          git tag -a $new_version -m "Version $new_version"
-          git push origin $new_version
-          git push
-        shell: /usr/bin/bash -e {0}
-        if: success()
-
-      - name: Create Release
-        uses: actions/create-release@v1
+      - name: Tag and create release
+        uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ steps.set_version.outputs.new_version }}
-          release_name: Release ${{ steps.set_version.outputs.new_version }}
-          body: |
-            Describe your release here
+          tag_name: v${{ steps.set_version.outputs.new_version }}
           files: /tmp/pack.zip
-        if: success()
