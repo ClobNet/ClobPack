@@ -30,18 +30,19 @@ jobs:
           major=${version_parts[0]}
           minor=${version_parts[1]}
           patch=${version_parts[2]}
-
+      
           if [ -z "$patch" ]; then
             patch=0
           else
             patch=$((patch + 1))
           fi
-
-          new_version="$major.$minor.$patch"
+      
+          new_version="v$major.$minor.$patch"
           echo "Setting new version: $new_version"
-
+      
           echo "::set-output name=new_version::$new_version"
-
+        shell: bash
+          
       - name: Tag and create release
         uses: softprops/action-gh-release@v1
         with:
