@@ -37,7 +37,7 @@ jobs:
           new_version="${major}.${minor}.${patch}"
           echo "Setting new version: ${new_version}"
 
-          echo "::set-output name=new_version::v${new_version}"
+          echo "::set-output name=new_version::v${new_version#v}"
         shell: bash
           
       - name: Tag and create release
