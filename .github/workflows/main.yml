@@ -48,16 +48,17 @@ jobs:
           echo "Setting new version: $new_version"
 
           echo "::set-output name=new_version::$new_version"
-        shell: bash
 
       - name: Commit and Push Version
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          
+    
           git tag ${{ steps.set_version.outputs.new_version }}
           git push origin ${{ steps.set_version.outputs.new_version }}
           git push
+
+        shell: /usr/bin/bash -e {0}
         if: success()
 
       - name: Create Release
@@ -69,3 +70,4 @@ jobs:
             Describe your release here
           files: /tmp/pack.zip
         if: success()
+        
