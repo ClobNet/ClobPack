@@ -50,3 +50,4 @@ jobs:
         with:
           tag_name: ${{ steps.set_version.outputs.new_version }}
           files: /tmp/pack.zip
+          
