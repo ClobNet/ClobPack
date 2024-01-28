@@ -1,5 +1,8 @@
 name: Optimize resource pack
-on: [push]
+on:
+  push:
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
@@ -8,17 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # A non-shallow repository clone is required
+        uses: actions/checkout@v2
+
       - name: Set Version
         id: set_version
         run: |
-          current_version=$(git describe --tags --abbrev=0)
-          echo "Current version: ${current_version}"
+          latest_version=$(git tag -l --sort=v:refname | tail -n1)
+          echo "Latest version: ${latest_version}"
 
-          # Extract major, minor, and patch using regex
-          if [[ $current_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
             major=$((10#${BASH_REMATCH[1]}))
             minor=$((10#${BASH_REMATCH[2]}))
             patch=$((10#${BASH_REMATCH[3]}))
@@ -47,10 +48,9 @@ jobs:
 
           echo "::set-output name=new_version::${new_version}"
         shell: bash
-          
+
       - name: Tag and create release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.set_version.outputs.new_version }}
           files: /tmp/pack.zip
-          
