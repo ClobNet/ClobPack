@@ -11,13 +11,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
-      - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v4
-        with:
-          packsquash_version: latest
-          options: |
-            pack_directory = 'main'
-            output_file_path = '/tmp/pack.zip'
       - name: Set Version
         id: set_version
         run: |
