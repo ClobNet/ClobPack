@@ -10,37 +10,26 @@ jobs:
     name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Set Version
         id: set_version
         run: |
-          latest_version=$(git tag -l | tail -n1)
-          echo "Latest version: ${latest_version}"
+          latest_version=$(git tag -l --sort=v:refname | tail -n1)
 
-          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
             major=$((10#${BASH_REMATCH[1]}))
             minor=$((10#${BASH_REMATCH[2]}))
-            patch=$((10#${BASH_REMATCH[3]}))
           else
             echo "Invalid version format"
             exit 1
           fi
 
-          # Increment patch version
-          patch=$((patch + 1))
+          # Increment minor version
+          minor=$((minor + 1))
 
-          # Increment minor version if patch is 10
-          if [ "$patch" -eq 10 ]; then
-            minor=$((minor + 1))
-            patch=0
-          fi
-
-          # Increment major version if minor is 10
-          if [ "$minor" -eq 10 ]; then
-            major=$((major + 1))
-            minor=0
-          fi
-
-          new_version="v${major}.${minor}.${patch}"
+          new_version="v${major}.${minor}"
           echo "Setting new version: ${new_version}"
 
           echo "::set-output name=new_version::${new_version}"
