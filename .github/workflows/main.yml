@@ -39,7 +39,7 @@ jobs:
             patch=0
           fi
 
-          new_version="${major}.${minor}.${patch}"
+          new_version="v${major}.${minor}.${patch}"
           echo "Setting new version: ${new_version}"
 
           echo "::set-output name=new_version::${new_version}"
