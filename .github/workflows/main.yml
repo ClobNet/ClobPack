@@ -16,7 +16,8 @@ jobs:
       - name: Set Version
         id: set_version
         run: |
-          latest_version=$(git tag -l --sort=v:refname | tail -n1)
+          latest_commit=$(git rev-list --tags --max-count=1)
+          latest_version=$(git describe --tags $latest_commit)
           echo "Latest version: ${latest_version}"
 
           if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
