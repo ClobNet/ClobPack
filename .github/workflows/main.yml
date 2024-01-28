@@ -34,9 +34,14 @@ jobs:
             patch=$((patch + 1))
           fi
 
-          if [ $patch -eq 10 ]; then
+          # Check if it's time to increment the major version
+          if [ "$major" -eq 0 ] && [ "$minor" -eq 9 ] && [ "$patch" -eq 10 ]; then
+            major=$((major + 1))
+            minor=0
             patch=0
+          elif [ "$patch" -eq 10 ]; then
             minor=$((minor + 1))
+            patch=0
           fi
 
           new_version="${major}.${minor}.${patch}"
