@@ -19,8 +19,8 @@ jobs:
           latest_version=$(git tag -l --sort=v:refname | tail -n1)
 
           if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
-            major=$((10#${BASH_REMATCH[1]}))
-            minor=$((10#${BASH_REMATCH[2]}))
+            major="${BASH_REMATCH[1]}"
+            minor="${BASH_REMATCH[2]}"
           else
             echo "Invalid version format"
             exit 1
