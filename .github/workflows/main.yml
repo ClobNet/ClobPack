@@ -18,9 +18,10 @@ jobs:
         run: |
           latest_version=$(git tag -l --sort=v:refname | tail -n1)
 
-          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
+          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
             major="${BASH_REMATCH[1]}"
             minor="${BASH_REMATCH[2]}"
+            patch="${BASH_REMATCH[3]}"
           else
             echo "Invalid version format"
             exit 1
@@ -29,7 +30,7 @@ jobs:
           # Increment minor version
           minor=$((minor + 1))
 
-          new_version="v${major}.${minor}"
+          new_version="v${major}.${minor}.${patch}"
           echo "Setting new version: ${new_version}"
 
           echo "::set-output name=new_version::${new_version}"
