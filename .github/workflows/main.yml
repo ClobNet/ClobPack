@@ -21,7 +21,7 @@ jobs:
       - name: Set Version
         id: set_version
         run: |
-          current_version=$(git describe --tags --abbrev=0)
+          current_version=$(git describe --tags --abbrev=0 --match "v[0-9]*.[0-9]*.[0-9]*")
           echo "Current version: ${current_version}"
           version_parts=(${current_version//./ })
           major=${version_parts[0]}
