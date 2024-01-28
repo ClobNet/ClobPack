@@ -17,12 +17,13 @@ jobs:
         id: set_version
         run: |
           latest_version=$(git tag -l --sort=v:refname | tail -n1)
+          echo "Latest version: ${latest_version}"
 
           if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
             major="${BASH_REMATCH[1]}"
             minor="${BASH_REMATCH[2]}"
           else
-            echo "Invalid version format"
+            echo "Invalid version format for the latest tag: $latest_version"
             exit 1
           fi
 
