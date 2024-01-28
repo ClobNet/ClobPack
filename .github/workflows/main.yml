@@ -34,9 +34,3 @@ jobs:
 
           echo "::set-output name=new_version::${new_version}"
         shell: bash
-
-      - name: Tag and create release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.set_version.outputs.new_version }}
-          files: /tmp/pack.zip
