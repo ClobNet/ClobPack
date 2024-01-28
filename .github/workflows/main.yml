@@ -14,18 +14,20 @@ jobs:
       - name: Set Version
         id: set_version
         run: |
-          current_version=$(git describe --tags --abbrev=0 --match "v[0-9]*.[0-9]*.[0-9]*")
+          current_version=$(git describe --tags --abbrev=0)
           echo "Current version: ${current_version}"
-          version_parts=(${current_version//./ })
-          major=${version_parts[0]}
-          minor=${version_parts[1]}
-          patch=${version_parts[2]}
 
-          if [ -z "$patch" ]; then
-            patch=0
+          # Extract major, minor, and patch using regex
+          if [[ $current_version =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            major=${BASH_REMATCH[1]}
+            minor=${BASH_REMATCH[2]}
+            patch=${BASH_REMATCH[3]}
           else
-            patch=$((patch + 1))
+            echo "Invalid version format"
+            exit 1
           fi
+
+          patch=$((patch + 1))
 
           # Check if it's time to increment the major version
           if [ "$major" -eq 0 ] && [ "$minor" -eq 9 ] && [ "$patch" -eq 10 ]; then
