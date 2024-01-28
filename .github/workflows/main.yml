@@ -1,5 +1,8 @@
 name: Optimize resource pack
-on: [push]
+on:
+  push:
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
@@ -7,10 +10,9 @@ jobs:
     name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Set Version
         id: set_version
         run: |
@@ -25,7 +27,12 @@ jobs:
           fi
 
           # Increment minor version
-          minor=$((minor + 1))
+          if [ "$minor" -lt 9 ]; then
+            minor=$((minor + 1))
+          else
+            major=$((major + 1))
+            minor=0
+          fi
 
           new_version="v${major}.${minor}"
           echo "Setting new version: ${new_version}"
