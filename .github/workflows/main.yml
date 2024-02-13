@@ -1,0 +1,55 @@
+name: Optimize resource pack
+on: [push]
+permissions:
+  contents: write
+jobs:
+  packsquash:
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest
+          options: |
+            pack_directory = 'main'
+            output_file_path = '/tmp/pack.zip'
+      - name: Fetch tags
+        run: git fetch --tags
+      - name: Set Version
+        id: set_version
+        run: |
+          latest_version=$(git tag -l --sort=v:refname | tail -n1)
+          echo "Latest version: ${latest_version}"
+
+          if [[ $latest_version =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
+            major="${BASH_REMATCH[1]}"
+            minor="${BASH_REMATCH[2]}"
+          else
+            echo "Invalid version format for the latest tag: $latest_version"
+            exit 1
+          fi
+
+          # Increment minor version
+          if [ "$minor" -lt 9 ]; then
+            minor=$((minor + 1))
+          else
+            major=$((major + 1))
+            minor=0
+          fi
+
+          new_version="v${major}.${minor}"
+          echo "Setting new version: ${new_version}"
+
+          echo "::set-output name=new_version::${new_version}"
+        shell: bash
+          
+      - name: Tag and create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.set_version.outputs.new_version }}
+          files: /tmp/pack.zip
