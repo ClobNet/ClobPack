@@ -11,6 +11,7 @@
   {"predicate": {"custom_model_data":4}, "model": "item/box"},
   {"predicate": {"custom_model_data":5}, "model": "item/kitty"},
   {"predicate": {"custom_model_data":6}, "model": "item/kuromi"},
-  {"predicate": {"custom_model_data":7}, "model": "item/cinnamoroll"}
+  {"predicate": {"custom_model_data":7}, "model": "item/cinnamoroll"},
+  {"predicate": {"custom_model_data":8}, "model": "item/sword"}
  ]
 }
