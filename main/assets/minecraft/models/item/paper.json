@@ -1,17 +1,1 @@
-{
- "parent": "item/generated",
- "textures": {
-  "layer0": "item/carved_pumpkin"
- },
- 
- "overrides": [
-  {"predicate": {"custom_model_data":1}, "model": "item/shop"},
-  {"predicate": {"custom_model_data":2}, "model": "item/bank"},
-  {"predicate": {"custom_model_data":3}, "model": "block/anvil"},
-  {"predicate": {"custom_model_data":4}, "model": "item/box"},
-  {"predicate": {"custom_model_data":5}, "model": "item/kitty"},
-  {"predicate": {"custom_model_data":6}, "model": "item/kuromi"},
-  {"predicate": {"custom_model_data":7}, "model": "item/cinnamoroll"},
-  {"predicate": {"custom_model_data":8}, "model": "item/sword"}
- ]
-}
+{"parent":"item/generated","textures":{"layer0":"item/carved_pumpkin"},"overrides":[{"predicate":{"custom_model_data":1},"model":"item/shop"},{"predicate":{"custom_model_data":2},"model":"item/bank"},{"predicate":{"custom_model_data":3},"model":"block/anvil"},{"predicate":{"custom_model_data":4},"model":"item/box"},{"predicate":{"custom_model_data":5},"model":"item/kitty"},{"predicate":{"custom_model_data":6},"model":"item/kuromi"},{"predicate":{"custom_model_data":7},"model":"item/cinnamoroll"},{"predicate":{"custom_model_data":8},"model":"item/sword"}]}
