@@ -507,7 +507,8 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
-			"translation": [-6, 0, 0]
+			"translation": [-6, 0, 6],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"head": {
 			"scale": [1.5, 1.5, 1.5]
