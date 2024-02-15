@@ -1,1 +1,113 @@
-{"providers":[{"type":"bitmap","file":"titles/owner.png","ascent":7,"height":7,"chars":["㐛"]},{"type":"bitmap","file":"titles/manager.png","ascent":7,"height":7,"chars":["㑛"]},{"type":"bitmap","file":"titles/admin.png","ascent":7,"height":7,"chars":["㑋"]},{"type":"bitmap","file":"titles/team.png","ascent":7,"height":7,"chars":["㐻"]},{"type":"bitmap","file":"titles/mod.png","ascent":7,"height":7,"chars":["㐋"]},{"type":"bitmap","file":"assets/parkour.png","ascent":7,"height":128,"chars":["㒌"]},{"type":"bitmap","file":"titles/guide.png","ascent":7,"height":7,"chars":["㒋"]},{"type":"bitmap","file":"titles/player.png","ascent":7,"height":7,"chars":["枝"]},{"type":"bitmap","file":"assets/logo.png","ascent":32,"height":80,"chars":["셚셙","션셗"]},{"type":"bitmap","file":"assets/space_split.png","ascent":-32768,"height":0,"chars":["ꌄ"]}]}
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "titles/owner.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/manager.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/admin.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/team.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐻"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/mod.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/parkour.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"㒌"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/guide.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㒋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/player.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"枝"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/logo.png",
+			"ascent": 32,
+			"height": 80,
+			"chars": [
+				"셚셙",
+				"션셗"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": 0,
+			"chars": [
+				"ꌄ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": -3,
+			"chars": [
+				"ꈂ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/clobmine.png",
+			"ascent": 63,
+			"height": 120,
+			"chars": [
+				"섏섐"
+			]
+		}
+	]
+}
