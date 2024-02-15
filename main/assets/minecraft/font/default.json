@@ -108,6 +108,15 @@
 			"chars": [
 				"섏섐"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/sign.png",
+			"ascent": 63,
+			"height": 120,
+			"chars": [
+				"섑섒"
+			]
 		}
 	]
 }
