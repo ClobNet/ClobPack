@@ -62,7 +62,61 @@
 			"predicate": {
 				"custom_model_data": 10
 			},
-			"model": "item/gui-bg"
+			"model": "item/gui"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "item/gui-shop-1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "item/gui-shop-2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "item/gui-shop-3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "item/gui-shop-4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 15
+			},
+			"model": "item/gui-shop-5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 16
+			},
+			"model": "item/gui-shop-6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 17
+			},
+			"model": "item/gui-shop-7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 18
+			},
+			"model": "item/gui-shop-8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 19
+			},
+			"model": "item/gui-shop-9"
 		}
 	]
 }
