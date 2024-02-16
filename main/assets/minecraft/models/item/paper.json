@@ -57,6 +57,12 @@
 				"custom_model_data": 9
 			},
 			"model": "item/kart"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "block/gui-bg"
 		}
 	]
 }
