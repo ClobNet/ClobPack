@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/horn_coral_block",
+  "textures": {
+    "all": "minecraft:block/horn_coral_block"
+  }
+}

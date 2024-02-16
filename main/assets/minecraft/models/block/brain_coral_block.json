@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/brain_coral_block",
+  "textures": {
+    "all": "minecraft:block/brain_coral_block"
+  }
+}

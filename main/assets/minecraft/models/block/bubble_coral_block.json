@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bubble_coral_block",
+  "textures": {
+    "all": "minecraft:block/bubble_coral_block"
+  }
+}
