@@ -122,7 +122,7 @@
 			"type": "bitmap",
 			"file": "assets/shop.png",
 			"ascent": 7,
-			"height": 120,
+			"height": 7,
 			"chars": [
 				"섓"
 			]
