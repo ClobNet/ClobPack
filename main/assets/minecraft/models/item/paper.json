@@ -117,6 +117,18 @@
 				"custom_model_data": 19
 			},
 			"model": "item/gui-shop-9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20
+			},
+			"model": "item/npc_texture"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 21
+			},
+			"model": "item/npc_texture2"
 		}
 	]
 }
