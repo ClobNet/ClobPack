@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "minecraft:block/black_stained_glass"
+	},
+	"display": {
+		"name": {
+			"scale": [
+				64,
+				64,
+				64
+			]
+		}
+	}
+}
