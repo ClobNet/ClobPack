@@ -1,7 +1,5 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "item/generated",
-	"texture_size": [128, 128],
 	"textures": {
 		"layer0": "item/gui-shop-1"
 	},
