@@ -3,7 +3,7 @@
 	"parent": "custom/vehicles/racecar_red",
 	"texture_size": [128, 128],
 	"textures": {
-		"voxels_atlas": "custom/cars/racecar_emerald"
+		"voxels_atlas": "custom/cars/racecar_purple"
 	},
 	"elements": [
 		{
