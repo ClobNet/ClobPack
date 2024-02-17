@@ -139,7 +139,7 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:guis/testtwo.png",
-			"ascent": 15,
+			"ascent": 17,
 			"height": 81,
 			"chars": [
 				"섔"
