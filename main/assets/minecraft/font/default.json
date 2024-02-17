@@ -149,7 +149,7 @@
 			"type": "bitmap",
 			"file": "minecraft:guis/kart.png",
 			"ascent": 17,
-			"height": 132,
+			"height": 135,
 			"chars": [
 				"섕"
 			]
@@ -158,7 +158,7 @@
 			"type": "bitmap",
 			"file": "minecraft:guis/buymenu.png",
 			"ascent": 17,
-			"height": 117,
+			"height": 135,
 			"chars": [
 				"섖"
 			]
