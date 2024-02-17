@@ -183,6 +183,12 @@
 				"custom_model_data": 30
 			},
 			"model": "item/arrow-back"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 31
+			},
+			"model": "item/settings"
 		}
 	]
 }
