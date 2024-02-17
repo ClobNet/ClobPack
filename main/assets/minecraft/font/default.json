@@ -149,7 +149,7 @@
 			"type": "bitmap",
 			"file": "minecraft:guis/kart.png",
 			"ascent": 17,
-			"height": 117,
+			"height": 132,
 			"chars": [
 				"섕"
 			]
