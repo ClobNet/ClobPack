@@ -129,6 +129,18 @@
 				"custom_model_data": 21
 			},
 			"model": "item/npc_texture2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 22
+			},
+			"model": "item/gui-track-forest"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 23
+			},
+			"model": "item/gui-track-monaco"
 		}
 	]
 }
