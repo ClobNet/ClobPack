@@ -153,6 +153,15 @@
 			"chars": [
 				"섕"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:guis/buymenu.png",
+			"ascent": 8,
+			"height": 117,
+			"chars": [
+				"섖"
+			]
 		}
 	]
 }
