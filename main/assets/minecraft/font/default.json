@@ -117,6 +117,33 @@
 			"chars": [
 				"섒"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:guis/pixel.png",
+			"ascent": -2000,
+			"height": -3,
+			"chars": [
+				"七"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:guis/testone.png",
+			"ascent": 8,
+			"height": 117,
+			"chars": [
+				"섓"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:guis/testtwo.png",
+			"ascent": 8,
+			"height": 81,
+			"chars": [
+				"섔"
+			]
 		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "item/carved_pumpkin"
+		"layer0": "item/paper"
 	},
 	"overrides": [
 		{
@@ -189,6 +189,12 @@
 				"custom_model_data": 31
 			},
 			"model": "item/settings"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10007
+			},
+			"model": "blank:auto_generated/blank"
 		}
 	]
 }
