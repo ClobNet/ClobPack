@@ -1,8 +1,0 @@
-{
-    "parent": "custom/vehicles/suv_white",
-	"textures": {
-		"particle": "items/particle",
-		"texture": "items/texture",
-		"voxels_atlas": "custom/cars/suv_cabrio_purplewhite"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "custom/vehicles/apache_gray",
-	"textures": {
-		"particle": "items/particle",
-		"texture": "items/texture",
-		"voxels_atlas": "custom/cars/apache_obsidian"
-    }
-}
