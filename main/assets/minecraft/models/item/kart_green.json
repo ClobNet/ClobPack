@@ -516,8 +516,8 @@
 			"scale": [0.24, 0.24, 0.24]
 		},
 		"firstperson_righthand": {
-			"rotation": [-11, 43, 40],
-			"translation": [0.25, 2.25, -1.25],
+			"rotation": [-11, 37, 37],
+			"translation": [0.25, 2.75, -2],
 			"scale": [0.24, 0.24, 0.24]
 		},
 		"gui": {
