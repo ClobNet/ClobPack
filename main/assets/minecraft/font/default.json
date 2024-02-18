@@ -36,24 +36,20 @@
 				"枝"
 			]
 		},
-                {
+		{
 			"type": "bitmap",
-			"file": "assets/tab1.png",
+			"file": "assets/tab.png",
 			"ascent": 36,
 			"height": 80,
 			"chars": [
-<<<<<<< HEAD
 				"셙"
-=======
-				"서"
->>>>>>> 50f7843be62b6aea1cddb2feca1fc921607ed46e
 			]
 		},
                 {
 			"type": "bitmap",
 			"file": "assets/tab2.png",
-			"ascent": 36,
-			"height": 80,
+			"ascent": 32,
+			"height": 90,
 			"chars": [
 				"셚"
 			]
