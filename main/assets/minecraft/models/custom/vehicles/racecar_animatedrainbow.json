@@ -1,8 +1,1 @@
-{
-    "parent": "custom/vehicles/racecar_red",
-	"textures": {
-		"particle": "items/particle",
-		"texture": "items/texture",
-		"voxels_atlas": "custom/cars/racecar_animatedrainbow"
-    }
-}
+{"parent":"custom/vehicles/racecar_red","textures":{"particle":"items/particle","texture":"items/texture","voxels_atlas":"custom/cars/racecar_animatedrainbow"}}
