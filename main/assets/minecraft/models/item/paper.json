@@ -180,6 +180,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 32
+			},
+			"model": "item/welcome"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 10007
 			},
 			"model": "blank:auto_generated/blank"
