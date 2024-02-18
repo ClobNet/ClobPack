@@ -38,7 +38,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "assets/tab-logo.png",
+			"file": "assets/tab.png",
 			"ascent": 36,
 			"height": 80,
 			"chars": [
