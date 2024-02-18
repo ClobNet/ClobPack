@@ -6,18 +6,6 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 1
-			},
-			"model": "item/shop"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 2
-			},
-			"model": "item/bank"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 3
 			},
 			"model": "block/anvil"

@@ -183,6 +183,24 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "assets/shop.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섙"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/bank.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섛"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/emojis.png",
 			"ascent": 7,
 			"height": 8,
