@@ -132,6 +132,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 33
+			},
+			"model": "item/sit"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 10007
 			},
 			"model": "blank:auto_generated/blank"
