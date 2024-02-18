@@ -4,7 +4,7 @@
 			"type": "bitmap",
 			"file": "titles/owner.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"㐛"
 			]
@@ -13,7 +13,7 @@
 			"type": "bitmap",
 			"file": "titles/admin.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"㑋"
 			]
@@ -22,7 +22,7 @@
 			"type": "bitmap",
 			"file": "titles/mod.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"㐋"
 			]
@@ -31,7 +31,7 @@
 			"type": "bitmap",
 			"file": "titles/player.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"枝"
 			]
