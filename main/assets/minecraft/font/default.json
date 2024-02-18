@@ -11,63 +11,27 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "titles/manager.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"㑛"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "titles/admin.png",
 			"ascent": 7,
-			"height": 7,
+			"height": 8,
 			"chars": [
 				"㑋"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "titles/team.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"㐻"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "titles/mod.png",
 			"ascent": 7,
-			"height": 7,
+			"height": 8,
 			"chars": [
 				"㐋"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "assets/parkour.png",
-			"ascent": 7,
-			"height": 128,
-			"chars": [
-				"㒌"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "titles/guide.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"㒋"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "titles/player.png",
 			"ascent": 7,
-			"height": 7,
+			"height": 8,
 			"chars": [
 				"枝"
 			]
@@ -111,7 +75,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "assets/sign.png",
+			"file": "assets/kart.png",
 			"ascent": 7,
 			"height": 64,
 			"chars": [
@@ -120,7 +84,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/pixel.png",
+			"file": "minecraft:gui/container/pixel.png",
 			"ascent": -2000,
 			"height": -3,
 			"chars": [
@@ -129,7 +93,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/shop.png",
+			"file": "minecraft:gui/container/shop.png",
 			"ascent": 17,
 			"height": 117,
 			"chars": [
@@ -138,7 +102,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/testtwo.png",
+			"file": "minecraft:gui/container/tracks.png",
 			"ascent": 17,
 			"height": 81,
 			"chars": [
@@ -147,7 +111,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/kart.png",
+			"file": "minecraft:gui/container/kart.png",
 			"ascent": 17,
 			"height": 135,
 			"chars": [
@@ -156,7 +120,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/buymenu.png",
+			"file": "minecraft:gui/container/buymenu.png",
 			"ascent": 17,
 			"height": 135,
 			"chars": [
@@ -165,7 +129,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/parkourmenu.png",
+			"file": "minecraft:gui/container/parkourmenu.png",
 			"ascent": 17,
 			"height": 81,
 			"chars": [
@@ -179,6 +143,15 @@
 			"height": 32,
 			"chars": [
 				"섘"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/parkour.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"㒌"
 			]
 		},
 		{
@@ -201,7 +174,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "assets/emojis.png",
+			"file": "emojis/emojis.png",
 			"ascent": 7,
 			"height": 8,
 			"chars": [
