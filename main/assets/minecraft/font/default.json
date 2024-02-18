@@ -40,9 +40,9 @@
 			"type": "bitmap",
 			"file": "assets/tab-logo.png",
 			"ascent": 32,
-			"height": 80,
+			"height": 120,
 			"chars": [
-				"셚셙",
+				"셚",
 				"션셗"
 			]
 		},
