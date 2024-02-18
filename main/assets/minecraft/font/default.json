@@ -165,6 +165,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "minecraft:guis/parkourmenu.png",
+			"ascent": 17,
+			"height": 81,
+			"chars": [
+				"섗"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/emojis.png",
 			"ascent": 7,
 			"height": 8,
