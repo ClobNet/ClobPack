@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "item/welcome",
-		"particle": "assets/welcome"
+		"0": "assets/welcome-banner",
+		"particle": "assets/welcome-banner"
 	},
 	"elements": [
 		{
