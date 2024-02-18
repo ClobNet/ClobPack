@@ -38,12 +38,20 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "assets/tab.png",
+			"file": "assets/tab1.png",
 			"ascent": 36,
 			"height": 80,
 			"chars": [
-				"셚셙",
-				"션셗"
+				"셚"
+			]
+		},
+                {
+			"type": "bitmap",
+			"file": "assets/tab2.png",
+			"ascent": 36,
+			"height": 80,
+			"chars": [
+				"셙"
 			]
 		},
 		{
