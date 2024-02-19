@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "titles/admin.png",
+			"file": "titles/manager.png",
 			"ascent": 7,
 			"height": 7,
 			"chars": [
@@ -170,6 +170,51 @@
 			"height": 128,
 			"chars": [
 				"섛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/developer.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"석"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/builder.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섞"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/modeller.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섟"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/designer.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"선"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/helper.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섡"
 			]
 		},
 		{
