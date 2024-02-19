@@ -5,8 +5,8 @@
 		128
 	],
 	"textures": {
-		"0": "assets/welcome",
-		"particle": "assets/welcome"
+		"0": "assets/welcome.png",
+		"particle": "assets/welcome.png"
 	},
 	"elements": [
 		{
