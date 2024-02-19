@@ -128,7 +128,7 @@
 			"predicate": {
 				"custom_model_data": 32
 			},
-			"model": "item/welcome"
+			"model": "item/karting_npc"
 		},
 		{
 			"predicate": {
