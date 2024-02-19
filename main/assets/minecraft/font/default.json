@@ -192,24 +192,6 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "titles/modeller.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"섟"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "titles/designer.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"선"
-			]
-		},
-		{
-			"type": "bitmap",
 			"file": "titles/helper.png",
 			"ascent": 7,
 			"height": 7,
