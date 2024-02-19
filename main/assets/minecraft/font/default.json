@@ -201,6 +201,24 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "titles/artist.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"선"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/modeller.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섟"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "emojis/emojis.png",
 			"ascent": 7,
 			"height": 8,
