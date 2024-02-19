@@ -1,1 +1,205 @@
-{"providers":[{"type":"bitmap","file":"titles/owner.png","ascent":7,"height":7,"chars":["㐛"]},{"type":"bitmap","file":"titles/admin.png","ascent":7,"height":7,"chars":["㑋"]},{"type":"bitmap","file":"titles/mod.png","ascent":7,"height":7,"chars":["㐋"]},{"type":"bitmap","file":"titles/player.png","ascent":7,"height":7,"chars":["枝"]},{"type":"bitmap","file":"assets/tab-logo.png","ascent":32,"height":80,"chars":["셚셙","션셗"]},{"type":"bitmap","file":"assets/space_split.png","ascent":-32768,"height":0,"chars":["ꌄ"]},{"type":"bitmap","file":"assets/space_split.png","ascent":-32768,"height":-3,"chars":["ꈂ"]},{"type":"bitmap","file":"assets/logo.png","ascent":63,"height":120,"chars":["섏섐"]},{"type":"bitmap","file":"assets/kart.png","ascent":7,"height":64,"chars":["섒"]},{"type":"bitmap","file":"minecraft:gui/container/pixel.png","ascent":-2000,"height":-3,"chars":["七"]},{"type":"bitmap","file":"minecraft:gui/container/shop.png","ascent":17,"height":117,"chars":["섓"]},{"type":"bitmap","file":"minecraft:gui/container/tracks.png","ascent":17,"height":81,"chars":["섔"]},{"type":"bitmap","file":"minecraft:gui/container/kart.png","ascent":17,"height":135,"chars":["섕"]},{"type":"bitmap","file":"minecraft:gui/container/buymenu.png","ascent":17,"height":135,"chars":["섖"]},{"type":"bitmap","file":"minecraft:gui/container/parkourmenu.png","ascent":17,"height":81,"chars":["섗"]},{"type":"bitmap","file":"assets/welcome-banner.png","ascent":17,"height":32,"chars":["섘"]},{"type":"bitmap","file":"assets/parkour.png","ascent":7,"height":128,"chars":["㒌"]},{"type":"bitmap","file":"assets/shop.png","ascent":7,"height":128,"chars":["섙"]},{"type":"bitmap","file":"assets/bank.png","ascent":7,"height":128,"chars":["섛"]},{"type":"bitmap","file":"emojis/emojis.png","ascent":7,"height":8,"chars":["ꌵꌶꌷꌸꌹ臜爟灿辉煓耀数舡舾舸艋咭嘻嘭喤嗥","ꌺꌻꌼꌽꌾ胝爅烟煨焯煺熵艇舲艅舴唣噢响咱哝","ꌿꍀꍁꍂꍃ胍炷炕炆熥熇焞舱虒舭鸼啾咯咚呼哌","ꍄꍅꍆꍇꍈ脾爙燧焙炫土埘咎篙舠艉唾听噬叽哚","ꍉꍊꍋꍌ섰舀声坦垾堤埸堨簇笠艨艏嘚吒吽哦兄","ꍍꍎꍏꍐꍑ腴塌垠墁冉堋埒艚舢篱航嗅呱啤嗖唆","ꍒꍓꍔꍕꍖ膊壳觳悫坥壸垌舫舻艟舷嘛嘁哞喊吮","ꍗꍘꍙꍚꍛ朘壹垺坝坰壶坍戈、丶良啷哺吠咙咏","ꍜꍝꍞꍟꍠ脏赫赭郝赦坋赧宀塱鵏郙唉咍唳叶嘟","ꍡꍢꍣꍤꍥ脯丧增啬赪坡榖能翩廞床嗔哱嗦嚓喃","鄀鄁鄂鄐鄑胈寺块瞽墚馨鼙术麻糜黁嚏囔味吱咤","鄒鄓鄔鄕鄖胧磬罄謦埫縠垙麽麾魔靡喀戢嘲哮喧","鄗鄘鄙鄚鄿脉款垱圭堎墙封磨摩书縻咛啶嗜哓嘧","縢塍螣腾媵消垚邽恚卦垧垍昶盚皴姿嗐咕噻喷嘹","肚氍貔腯貊盍墦坂垎塮圲塅裘禔视祖咴喹呔唏唵","貆肌冗股貅埌埵圻垢甏坼垛禅社祾祛咦愍啭另叻","豹胜貂貘见圹圫埠坻坬埤去禧卬睾鷭跗踟跄趵跸","莙节茝蓼荨荩薜苣芑井并並荆苷萁葚瓶鹢善荓蒴","岣崿岷崌岖嶍岠岂屺崛嵘崂嵌嵁酆嵯嵫嶟出屾觊","族施旎旗於旒鸬避旞立音竟章意竭遒亲竦产飒坢","迟旃旌旄旅旆放旖旐旋ꑝꑝꑝꑝꑝ囁囂囃囄囅囈"]}]}
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "titles/owner.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/admin.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㑋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/mod.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"㐋"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/player.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"枝"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/tab-logo.png",
+			"ascent": 32,
+			"height": 80,
+			"chars": [
+				"셚셙",
+				"션셗"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": 0,
+			"chars": [
+				"ꌄ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": -3,
+			"chars": [
+				"ꈂ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/logo.png",
+			"ascent": 63,
+			"height": 120,
+			"chars": [
+				"섏섐"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/kart.png",
+			"ascent": 7,
+			"height": 64,
+			"chars": [
+				"섒"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/pixel.png",
+			"ascent": -2000,
+			"height": -3,
+			"chars": [
+				"七"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/shop.png",
+			"ascent": 17,
+			"height": 117,
+			"chars": [
+				"섓"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/tracks.png",
+			"ascent": 17,
+			"height": 81,
+			"chars": [
+				"섔"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/kart.png",
+			"ascent": 17,
+			"height": 135,
+			"chars": [
+				"섕"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/buymenu.png",
+			"ascent": 17,
+			"height": 135,
+			"chars": [
+				"섖"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/parkourmenu.png",
+			"ascent": 17,
+			"height": 81,
+			"chars": [
+				"섗"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/welcome.png",
+			"ascent": 17,
+			"height": 32,
+			"chars": [
+				"섘"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/parkour.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"㒌"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/shop.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섙"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/bank.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "emojis/emojis.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"ꌵꌶꌷꌸꌹ臜爟灿辉煓耀数舡舾舸艋咭嘻嘭喤嗥",
+				"ꌺꌻꌼꌽꌾ胝爅烟煨焯煺熵艇舲艅舴唣噢响咱哝",
+				"ꌿꍀꍁꍂꍃ胍炷炕炆熥熇焞舱虒舭鸼啾咯咚呼哌",
+				"ꍄꍅꍆꍇꍈ脾爙燧焙炫土埘咎篙舠艉唾听噬叽哚",
+				"ꍉꍊꍋꍌ섰舀声坦垾堤埸堨簇笠艨艏嘚吒吽哦兄",
+				"ꍍꍎꍏꍐꍑ腴塌垠墁冉堋埒艚舢篱航嗅呱啤嗖唆",
+				"ꍒꍓꍔꍕꍖ膊壳觳悫坥壸垌舫舻艟舷嘛嘁哞喊吮",
+				"ꍗꍘꍙꍚꍛ朘壹垺坝坰壶坍戈、丶良啷哺吠咙咏",
+				"ꍜꍝꍞꍟꍠ脏赫赭郝赦坋赧宀塱鵏郙唉咍唳叶嘟",
+				"ꍡꍢꍣꍤꍥ脯丧增啬赪坡榖能翩廞床嗔哱嗦嚓喃",
+				"鄀鄁鄂鄐鄑胈寺块瞽墚馨鼙术麻糜黁嚏囔味吱咤",
+				"鄒鄓鄔鄕鄖胧磬罄謦埫縠垙麽麾魔靡喀戢嘲哮喧",
+				"鄗鄘鄙鄚鄿脉款垱圭堎墙封磨摩书縻咛啶嗜哓嘧",
+				"縢塍螣腾媵消垚邽恚卦垧垍昶盚皴姿嗐咕噻喷嘹",
+				"肚氍貔腯貊盍墦坂垎塮圲塅裘禔视祖咴喹呔唏唵",
+				"貆肌冗股貅埌埵圻垢甏坼垛禅社祾祛咦愍啭另叻",
+				"豹胜貂貘见圹圫埠坻坬埤去禧卬睾鷭跗踟跄趵跸",
+				"莙节茝蓼荨荩薜苣芑井并並荆苷萁葚瓶鹢善荓蒴",
+				"岣崿岷崌岖嶍岠岂屺崛嵘崂嵌嵁酆嵯嵫嶟出屾觊",
+				"族施旎旗於旒鸬避旞立音竟章意竭遒亲竦产飒坢",
+				"迟旃旌旄旅旆放旖旐旋ꑝꑝꑝꑝꑝ囁囂囃囄囅囈"
+			]
+		}
+	]
+}
