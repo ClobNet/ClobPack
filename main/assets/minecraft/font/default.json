@@ -219,6 +219,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "titles/discord.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섢"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "emojis/emojis.png",
 			"ascent": 7,
 			"height": 8,
