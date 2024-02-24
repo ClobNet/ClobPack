@@ -47,13 +47,10 @@
 			]
 		},
 		{
-			"type": "bitmap",
-			"file": "assets/space_split.png",
-			"ascent": -32768,
-			"height": 0,
-			"chars": [
-				"ꌄ"
-			]
+			"type": "space",
+			"advances": {
+				"ꌄ": -1
+			}
 		},
 		{
 			"type": "bitmap",
