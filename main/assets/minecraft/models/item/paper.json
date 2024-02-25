@@ -14,115 +14,115 @@
 			"predicate": {
 				"custom_model_data": 4
 			},
-			"model": "item/box"
+			"model": "clobnet/cosmetics/handheld/box"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 5
 			},
-			"model": "item/kitty"
+			"model": "clobnet/cosmetics/handheld/kitty"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 6
 			},
-			"model": "item/kuromi"
+			"model": "clobnet/cosmetics/handheld/kuromi"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 7
 			},
-			"model": "item/cinnamoroll"
+			"model": "clobnet/cosmetics/handheld/cinnamoroll"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 8
 			},
-			"model": "item/sword"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 9
-			},
-			"model": "item/kart_green"
+			"model": "clobnet/cosmetics/handheld/sword"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 10
 			},
-			"model": "item/gui"
+			"model": "clobnet/gui/gui"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 20
 			},
-			"model": "item/npc_texture"
+			"model": "clobnet/npc/npc_texture"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 21
 			},
-			"model": "item/npc_texture2"
+			"model": "clobnet/npc/npc_texture2"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 22
 			},
-			"model": "item/gui-track-forest"
+			"model": "clobnet/games/parkour/gui-track-forest"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 23
 			},
-			"model": "item/gui-track-monaco"
+			"model": "clobnet/games/parkour/gui-track-monaco"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "clobnet/games/kart/kart_green"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 24
 			},
-			"model": "item/kart_blue"
+			"model": "clobnet/games/kart/kart_blue"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 25
 			},
-			"model": "item/kart_yellow"
+			"model": "clobnet/games/kart/kart_yellow"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 26
 			},
-			"model": "item/kart_orange"
+			"model": "clobnet/games/kart/kart_orange"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 27
 			},
-			"model": "item/kart_pink"
+			"model": "clobnet/games/kart/kart_pink"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 28
 			},
-			"model": "item/kart_red"
+			"model": "clobnet/games/kart/kart_red"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 29
 			},
-			"model": "item/kart_rainbow"
+			"model": "clobnet/games/kart/kart_rainbow"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 30
 			},
-			"model": "item/arrow-back"
+			"model": "clobnet/item/arrow-back"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 31
 			},
-			"model": "item/settings"
+			"model": "clobnet/games/parkour/settings"
 		},
 		{
 			"predicate": {
@@ -134,7 +134,7 @@
 			"predicate": {
 				"custom_model_data": 33
 			},
-			"model": "item/samurai"
+			"model": "clobnet/cosmetics/hat/samurai_hat"
 		},
 		{
 			"predicate": {
