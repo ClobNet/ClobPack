@@ -136,7 +136,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/kart.png",
+			"file": "clobnet/gui/kart.png",
 			"ascent": 7,
 			"height": 64,
 			"chars": [
@@ -172,7 +172,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/kart.png",
+			"file": "clobnet/assets/kart.png",
 			"ascent": 17,
 			"height": 135,
 			"chars": [
