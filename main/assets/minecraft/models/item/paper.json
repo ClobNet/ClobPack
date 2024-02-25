@@ -42,6 +42,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "clobnet/games/kart/kart_green"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 10
 			},
 			"model": "clobnet/gui/gui"
@@ -69,12 +75,6 @@
 				"custom_model_data": 23
 			},
 			"model": "clobnet/games/parkour/gui-track-monaco"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 9
-			},
-			"model": "clobnet/games/kart/kart_green"
 		},
 		{
 			"predicate": {
@@ -122,13 +122,13 @@
 			"predicate": {
 				"custom_model_data": 31
 			},
-			"model": "clobnet/games/parkour/settings"
+			"model": "clobnet/item/settings"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 32
 			},
-			"model": "item/karting_npc"
+			"model": "clobnet/npc/karting_npc"
 		},
 		{
 			"predicate": {
