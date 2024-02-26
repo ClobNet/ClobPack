@@ -1,33 +1,8 @@
 {
 	"providers": [
 		{
-			"type": "space",
-			"advances": {
-				"ꌄ": -1,
-				"ꈂ": -3
-			}
-		},
-		{
 			"type": "bitmap",
-			"file": "clobnet/emojis/emojis.png",
-			"ascent": 8.5,
-			"height": 10,
-			"chars": [
-				"ꌵꌶꌷꌸꌹ臜爟灿辉煓",
-				"ꌺꌻꌼꌽꌾ胝爅烟煨焯",
-				"ꌿꍀꍁꍂꍃ胍炷炕炆熥",
-				"ꍄꍅꍆꍇꍈ脾爙燧焙炫",
-				"ꍉꍊꍋꍌ섰舀声坦垾堤",
-				"ꍍꍎꍏꍐꍑ腴塌垠墁冉",
-				"ꍒꍓꍔꍕꍖ膊壳觳悫坥",
-				"ꍗꍘꍙꍚꍛ朘壹垺坝坰",
-				"ꍜꍝꍞꍟꍠ脏赫赭郝赦",
-				"ꍡꍢꍣꍤꍥ脯丧增啬赪"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/owner.png",
+			"file": "titles/owner.png",
 			"ascent": 7,
 			"height": 7,
 			"chars": [
@@ -36,7 +11,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/titles/manager.png",
+			"file": "titles/manager.png",
 			"ascent": 7,
 			"height": 7,
 			"chars": [
@@ -45,7 +20,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/titles/mod.png",
+			"file": "titles/mod.png",
 			"ascent": 7,
 			"height": 7,
 			"chars": [
@@ -54,7 +29,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/titles/player.png",
+			"file": "titles/player.png",
 			"ascent": 7,
 			"height": 7,
 			"chars": [
@@ -63,61 +38,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/titles/developer.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"석"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/builder.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"섞"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/helper.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"섡"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/artist.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"선"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/modeller.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"섟"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/titles/discord.png",
-			"ascent": 7,
-			"height": 7,
-			"chars": [
-				"섢"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "clobnet/assets/tab-logo.png",
+			"file": "assets/tab-logo.png",
 			"ascent": 32,
 			"height": 80,
 			"chars": [
@@ -126,8 +47,23 @@
 			]
 		},
 		{
+			"type": "space",
+			"advances": {
+				"ꌄ": -1
+			}
+		},
+		{
 			"type": "bitmap",
-			"file": "clobnet/assets/logo.png",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": -3,
+			"chars": [
+				"ꈂ"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/logo.png",
 			"ascent": 63,
 			"height": 120,
 			"chars": [
@@ -136,7 +72,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/clobkart.png",
+			"file": "assets/kart.png",
 			"ascent": 7,
 			"height": 64,
 			"chars": [
@@ -154,7 +90,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/shop.png",
+			"file": "minecraft:gui/container/shop.png",
 			"ascent": 17,
 			"height": 117,
 			"chars": [
@@ -163,7 +99,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/tracks.png",
+			"file": "minecraft:gui/container/tracks.png",
 			"ascent": 17,
 			"height": 81,
 			"chars": [
@@ -172,7 +108,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/kart.png",
+			"file": "minecraft:gui/container/kart.png",
 			"ascent": 17,
 			"height": 135,
 			"chars": [
@@ -181,7 +117,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/buymenu.png",
+			"file": "minecraft:gui/container/buymenu.png",
 			"ascent": 17,
 			"height": 135,
 			"chars": [
@@ -190,7 +126,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/gui/parkourmenu.png",
+			"file": "minecraft:gui/container/parkourmenu.png",
 			"ascent": 17,
 			"height": 81,
 			"chars": [
@@ -199,7 +135,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/welcome.png",
+			"file": "assets/welcome.png",
 			"ascent": 17,
 			"height": 32,
 			"chars": [
@@ -208,7 +144,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/parkour.png",
+			"file": "assets/parkour.png",
 			"ascent": 7,
 			"height": 128,
 			"chars": [
@@ -217,7 +153,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/shop.png",
+			"file": "assets/shop.png",
 			"ascent": 7,
 			"height": 128,
 			"chars": [
@@ -226,11 +162,83 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "clobnet/assets/bank.png",
+			"file": "assets/bank.png",
 			"ascent": 7,
 			"height": 128,
 			"chars": [
 				"섛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/developer.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"석"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/builder.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섞"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/helper.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섡"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/artist.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"선"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/modeller.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섟"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/discord.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섢"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "emojis/emojis.png",
+			"ascent": 7,
+			"height": 8,
+			"chars": [
+				"ꌵꌶꌷꌸꌹ臜爟灿辉煓",
+				"ꌺꌻꌼꌽꌾ胝爅烟煨焯",
+				"ꌿꍀꍁꍂꍃ胍炷炕炆熥",
+				"ꍄꍅꍆꍇꍈ脾爙燧焙炫",
+				"ꍉꍊꍋꍌ섰舀声坦垾堤",
+				"ꍍꍎꍏꍐꍑ腴塌垠墁冉",
+				"ꍒꍓꍔꍕꍖ膊壳觳悫坥",
+				"ꍗꍘꍙꍚꍛ朘壹垺坝坰",
+				"ꍜꍝꍞꍟꍠ脏赫赭郝赦",
+				"ꍡꍢꍣꍤꍥ脯丧增啬赪"
 			]
 		}
 	]
