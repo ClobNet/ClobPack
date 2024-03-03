@@ -135,6 +135,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "minecraft:gui/container/cosmetics.png",
+			"ascent": 17,
+			"height": 135,
+			"chars": [
+				"섣"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/welcome.png",
 			"ascent": 17,
 			"height": 32,
@@ -225,9 +234,18 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "minecraft:gui/container/discord.png",
+			"ascent": 17,
+			"height": 135,
+			"chars": [
+				"설"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "emojis/emojis.png",
-			"ascent": 7,
-			"height": 8,
+			"ascent": 8.5,
+			"height": 10,
 			"chars": [
 				"ꌵꌶꌷꌸꌹ臜爟灿辉煓",
 				"ꌺꌻꌼꌽꌾ胝爅烟煨焯",
