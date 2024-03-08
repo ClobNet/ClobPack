@@ -5913,83 +5913,47 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopmenu.png",
-			"ascent": 12,
-			"height": 109,
+			"file": "minecraft:guis/menus/auctionmenu/auctionmenu.png",
+			"ascent": 35,
+			"height": 114,
 			"chars": [
-				"ㆊ"
+				"ㅸ"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopblocks.png",
-			"ascent": 36,
-			"height": 133,
+			"file": "minecraft:guis/menus/auctionmenu/auction.png",
+			"ascent": 20,
+			"height": 135,
 			"chars": [
-				"ㆉ"
+				"ㅷ"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopminerals.png",
-			"ascent": 36,
-			"height": 133,
+			"file": "minecraft:guis/menus/auctionmenu/myauctions.png",
+			"ascent": 20,
+			"height": 135,
 			"chars": [
-				"ㆈ"
+				"ㅶ"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopmobdrops.png",
-			"ascent": 36,
-			"height": 133,
+			"file": "minecraft:guis/menus/auctionmenu/expiredauctions.png",
+			"ascent": 20,
+			"height": 135,
 			"chars": [
-				"ㆇ"
+				"ㅵ"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopfarming.png",
-			"ascent": 36,
-			"height": 133,
+			"file": "minecraft:guis/menus/auctionmenu/confirm.png",
+			"ascent": 27,
+			"height": 106,
 			"chars": [
-				"ㆆ"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopcolors.png",
-			"ascent": 36,
-			"height": 133,
-			"chars": [
-				"ㆅ"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopmisc.png",
-			"ascent": 36,
-			"height": 133,
-			"chars": [
-				"ㆄ"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shopfoods.png",
-			"ascent": 36,
-			"height": 133,
-			"chars": [
-				"ㆃ"
-			]
-		},
-		{
-			"type": "bitmap",
-			"file": "minecraft:guis/menus/shopmenus/shoptransaction.png",
-			"ascent": 36,
-			"height": 133,
-			"chars": [
-				"ㆂ"
+				"ㅴ"
 			]
 		}
 	]
