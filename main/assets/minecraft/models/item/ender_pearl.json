@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/ender_pearl"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"iaalchemy:ia_auto_gen/mysterious_amulet"},{"predicate":{"custom_model_data":10001},"model":"item/ender_pearl"}]}

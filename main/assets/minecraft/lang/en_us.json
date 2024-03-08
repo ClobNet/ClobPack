@@ -1,1 +1,8 @@
-{"menu.game":"섏ꈂ섐","container.crafting":"","menu.returnToGame":"Return to ClobNet"}
+{
+	"container.crafting":"",
+	"item.color":"",
+	"item.dyed":"",
+	"menu.game":"섏ꈂ섐",
+	"menu.returnToGame":"Return to ClobNet",
+	"merchant.trades":""
+}
