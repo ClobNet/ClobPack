@@ -5760,6 +5760,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "minecraft:gui/container/voucher-redeem.png",
+			"ascent": 17,
+			"height": 81,
+			"chars": [
+				"섥"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "minecraft:gui/container/kart.png",
 			"ascent": 17,
 			"height": 135,
