@@ -5690,6 +5690,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "titles/staffchat.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섦"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/tab-logo.png",
 			"ascent": 32,
 			"height": 80,
