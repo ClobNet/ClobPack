@@ -1,0 +1,17 @@
+info:
+  namespace: iasurvival
+recipes:
+  cooking:
+    bronze_ingot:
+      enabled: true
+      permission: iasurvival.bronze_ingot
+      ingredient:
+        item: iasurvival:raw_tin_and_copper_ingot_dust
+      machines:
+        - FURNACE
+        - BLAST_FURNACE
+      exp: 1
+      cook_time: 400
+      result:
+        item: iasurvival:bronze_ingot
+        amount: 1
