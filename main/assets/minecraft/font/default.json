@@ -5708,6 +5708,24 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "titles/donator.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섨"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/global.png",
+			"ascent": 7,
+			"height": 7,
+			"chars": [
+				"섩"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/tab-logo.png",
 			"ascent": 32,
 			"height": 80,
