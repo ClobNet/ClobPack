@@ -5833,8 +5833,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:gui/container/cosmetics.png",
-			"ascent": 17,
-			"height": 135,
+			"ascent": 19,
+			"height": 133,
 			"chars": [
 				"섣"
 			]
