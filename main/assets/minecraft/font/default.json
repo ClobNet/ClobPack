@@ -5859,6 +5859,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "assets/comingsoon.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섪"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/shop.png",
 			"ascent": 7,
 			"height": 128,
