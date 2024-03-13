@@ -5779,8 +5779,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:gui/container/shop.png",
-			"ascent": 17,
-			"height": 117,
+			"ascent": 19,
+			"height": 133,
 			"chars": [
 				"섓"
 			]
@@ -5806,8 +5806,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:gui/container/kart.png",
-			"ascent": 17,
-			"height": 135,
+			"ascent": 19,
+			"height": 133,
 			"chars": [
 				"섕"
 			]
