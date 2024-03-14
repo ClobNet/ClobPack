@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/writable_book"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"iasurvival:ia_auto_gen/letter"},{"predicate":{"custom_model_data":10001},"model":"item/writable_book"}]}

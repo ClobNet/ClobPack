@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/totem_of_undying"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"iaalchemy:ia_auto_gen/arcane_ring"},{"predicate":{"custom_model_data":10001},"model":"item/totem_of_undying"}]}
