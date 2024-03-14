@@ -6018,6 +6018,24 @@
 			"chars": [
 				"ㅴ"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/effectsbar.png",
+			"ascent": 13,
+			"height": 256,
+			"chars": [
+				"盏缛"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/space_split.png",
+			"ascent": -32768,
+			"height": -223,
+			"chars": [
+				"求"
+			]
 		}
 	]
 }
