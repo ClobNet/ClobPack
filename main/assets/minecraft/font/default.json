@@ -5797,8 +5797,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:gui/container/tracks.png",
-			"ascent": 17,
-			"height": 81,
+			"ascent": 19,
+			"height": 103,
 			"chars": [
 				"섔"
 			]
@@ -5833,8 +5833,8 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:gui/container/parkourmenu.png",
-			"ascent": 17,
-			"height": 81,
+			"ascent": 19,
+			"height": 103,
 			"chars": [
 				"섗"
 			]
