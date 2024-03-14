@@ -5816,7 +5816,7 @@
 			"type": "bitmap",
 			"file": "minecraft:gui/container/kart.png",
 			"ascent": 19,
-			"height": 82,
+			"height": 103,
 			"chars": [
 				"섕"
 			]
@@ -5834,7 +5834,7 @@
 			"type": "bitmap",
 			"file": "minecraft:gui/container/parkourmenu.png",
 			"ascent": 19,
-			"height": 82,
+			"height": 103,
 			"chars": [
 				"섗"
 			]
