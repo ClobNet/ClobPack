@@ -5816,6 +5816,16 @@
 			]
 		},
 		{
+			"type": "bitmap",
+			"file": "assets/you_died.png",
+			"ascent": 32,
+			"height": 80,
+			"chars": [
+				"셕셖",
+				"셛셜"
+			]
+		},
+		{
 			"type": "space",
 			"advances": {
 				"ꌄ": -1
