@@ -6045,6 +6045,16 @@
 			"chars": [
 				"求"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "assets/settings_icons.png",
+			"ascent": -4,
+			"height": 72,
+			"chars": [
+				"乳炙堵垸躐咐唯噍呤勋绲绎绡绱缕彝",
+				"衷剂止步遗遣亦迪上氵肯赟迺迂还歧"
+			]
 		}
 	]
 }
