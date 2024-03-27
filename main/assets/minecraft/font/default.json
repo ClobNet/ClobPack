@@ -5877,6 +5877,15 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "assets/wardrobe.png",
+			"ascent": 7,
+			"height": 128,
+			"chars": [
+				"섬"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/shop.png",
 			"ascent": 7,
 			"height": 128,
