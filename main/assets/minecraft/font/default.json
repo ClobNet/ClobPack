@@ -6050,7 +6050,7 @@
 			"type": "bitmap",
 			"file": "emojis/message.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"迟"
 			]
@@ -6059,7 +6059,7 @@
 			"type": "bitmap",
 			"file": "emojis/chat.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 7,
 			"chars": [
 				"旃"
 			]
