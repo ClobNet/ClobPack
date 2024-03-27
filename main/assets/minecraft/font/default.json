@@ -6048,11 +6048,20 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "emojis/emoji.png",
+			"file": "emojis/message.png",
 			"ascent": 7,
-			"height": 8,
+			"height": 16,
 			"chars": [
-				"迟旃旌"
+				"迟"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "emojis/chat.png",
+			"ascent": 7,
+			"height": 16,
+			"chars": [
+				"旃"
 			]
 		}
 	]
