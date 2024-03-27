@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "minecraft:item/fermented_spider_eye" },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 9000001 },
+      "model": "z_cosmetics:cursor_default"
+    },
+    {
+      "predicate": { "custom_model_data": 9000002 },
+      "model": "z_cosmetics:cursor_scroll"
+    },
+    {
+      "predicate": { "custom_model_data": 9000003 },
+      "model": "z_cosmetics:cursor_pointer"
+    },
+    {
+      "predicate": { "custom_model_data": 9100003 },
+      "model": "z_cosmetics:dyeing_pointer"
+    },
+    {
+      "predicate": { "custom_model_data": 9100004 },
+      "model": "z_cosmetics:tutorial"
+    },
+    {
+      "predicate": { "custom_model_data": 9100005 },
+      "model": "z_cosmetics:tutorial_dont_show_again"
+    },
+    {
+      "predicate": { "custom_model_data": 9100006 },
+      "model": "minecraft:item/fermented_spider_eye"
+    }
+  ]
+}

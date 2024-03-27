@@ -1,1 +1,129 @@
-{"parent":"item/generated","textures":{"layer0":"item/potion_overlay","layer1":"item/potion"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"iasurvival:ia_auto_gen/hot_chocolate"},{"predicate":{"custom_model_data":10001},"model":"iasurvival:ia_auto_gen/coffee"},{"predicate":{"custom_model_data":10002},"model":"iasurvival:ia_auto_gen/bloody_mary"},{"predicate":{"custom_model_data":10003},"model":"iasurvival:ia_auto_gen/cola"},{"predicate":{"custom_model_data":10004},"model":"iaalchemy:ia_auto_gen/diamonds_finder_potion"},{"predicate":{"custom_model_data":10005},"model":"iaalchemy:ia_auto_gen/emeralds_finder_potion"},{"predicate":{"custom_model_data":10006},"model":"iaalchemy:ia_auto_gen/strange_potion"},{"predicate":{"custom_model_data":10007},"model":"iaalchemy:ia_auto_gen/antidote"},{"predicate":{"custom_model_data":10008},"model":"item/potion"}]}
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 300001 },
+      "model": "cosmetics:body/leather_backpack"
+    },
+    {
+      "predicate": { "custom_model_data": 310001 },
+      "model": "cosmetics:body/leather_backpack_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 300002 },
+      "model": "cosmetics:body/leather_backpack_self"
+    },
+    {
+      "predicate": { "custom_model_data": 310002 },
+      "model": "cosmetics:body/leather_backpack_self_2"
+    },
+    {
+      "predicate": { "custom_model_data": 300003 },
+      "model": "cosmetics:hat/cowboy_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 400003 },
+      "model": "cosmetics:body/red_parrot"
+    },
+    {
+      "predicate": { "custom_model_data": 410003 },
+      "model": "cosmetics:body/red_parrot_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400004 },
+      "model": "cosmetics:body/red_parrot_self"
+    },
+    {
+      "predicate": { "custom_model_data": 410004 },
+      "model": "cosmetics:body/red_parrot_self_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400005 },
+      "model": "cosmetics:hat/snow_fox_sleeping"
+    },
+    {
+      "predicate": { "custom_model_data": 400006 },
+      "model": "cosmetics:hat/chef_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 400007 },
+      "model": "cosmetics:hat/witch_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 400008 },
+      "model": "cosmetics:body/squirrel_tail"
+    },
+    {
+      "predicate": { "custom_model_data": 410008 },
+      "model": "cosmetics:body/squirrel_tail_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 410008 },
+      "model": "cosmetics:body/squirrel_tail_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400009 },
+      "model": "cosmetics:body/squirrel_tail_self"
+    },
+    {
+      "predicate": { "custom_model_data": 410009 },
+      "model": "cosmetics:body/squirrel_tail_self_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400010 },
+      "model": "cosmetics:body/bee_nest"
+    },
+    {
+      "predicate": { "custom_model_data": 410010 },
+      "model": "cosmetics:body/bee_nest_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400011 },
+      "model": "cosmetics:body/bee_nest_self"
+    },
+    {
+      "predicate": { "custom_model_data": 410011 },
+      "model": "cosmetics:body/bee_nest_self_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400012 },
+      "model": "cosmetics:body/backpack"
+    },
+    {
+      "predicate": { "custom_model_data": 410012 },
+      "model": "cosmetics:body/backpack_normal_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400013 },
+      "model": "cosmetics:body/backpack_self"
+    },
+    {
+      "predicate": { "custom_model_data": 410013 },
+      "model": "cosmetics:body/backpack_self_2"
+    },
+    {
+      "predicate": { "custom_model_data": 400014 },
+      "model": "cosmetics:entity/amogus_icon"
+    },
+    {
+      "predicate": { "custom_model_data": 400015 },
+      "model": "cosmetics:entity/ballon_cluster_icon"
+    },
+    {
+      "predicate": { "custom_model_data": 400016 },
+      "model": "cosmetics:entity/star_kite_icon"
+    },
+    {
+      "predicate": { "custom_model_data": 400017 },
+      "model": "cosmetics:entity/locomotive_icon"
+    },
+    {
+      "predicate": { "custom_model_data": 400018 },
+      "model": "minecraft:item/potion"
+    }
+  ]
+}

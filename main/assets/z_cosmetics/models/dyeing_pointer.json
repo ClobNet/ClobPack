@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "z_cosmetics:dyeing_pointer"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [1.55, 1.55, 1.55]
+		}
+	}
+}

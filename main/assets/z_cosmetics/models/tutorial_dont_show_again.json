@@ -1,0 +1,1 @@
+{"textures":{"layer0":"z_cosmetics:tutorial_dont_show_again"},"elements":[{"from":[-16,-16,32],"to":[32,32,32],"faces":{"south":{"uv":[0,0,16,16],"texture":"#layer0"}}}],"gui_light":"front","display":{"gui":{"translation":[-80,80,0],"scale":[4,4,4]}}}

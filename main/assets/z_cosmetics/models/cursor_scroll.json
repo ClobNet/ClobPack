@@ -1,0 +1,1 @@
+{"gui_light":"front","textures":{"layer0":"z_cosmetics:cursor_scroll"},"elements":[{"from":[0,3,8.5],"to":[16,16,8.5],"faces":{"south":{"uv":[0,0,16,13],"texture":"#layer0"}}}],"display":{"head":{"translation":[0,0,20],"scale":[0.8,0.8,0]}}}
