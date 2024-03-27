@@ -1,0 +1,10 @@
+info:
+  namespace: ia_various_configs
+minecraft_lang_overwrite:
+  esc_menu_texts:
+    entries:
+      "menu.game": ":top_logo_1::offset_-1::top_logo_2:"
+      "menu.disconnect": ":offset_-256::offset_16::quit_button::offset_-236::offset_16::bottom_news::offset_-256:"
+      "deathScreen.title": ":you_died:"
+    languages:
+      - ALL
