@@ -5735,6 +5735,51 @@
 		},
 		{
 			"type": "bitmap",
+			"file": "titles/common.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": [
+				"섭"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/uncommon.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": [
+				"섮"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/rare.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": [
+				"섯"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/epic.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": [
+				"섲"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "titles/legendary.png",
+			"ascent": 7,
+			"height": 9,
+			"chars": [
+				"성"
+			]
+		},
+		{
+			"type": "bitmap",
 			"file": "assets/tab-logo.png",
 			"ascent": 32,
 			"height": 80,
