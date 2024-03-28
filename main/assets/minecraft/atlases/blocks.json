@@ -384,6 +384,98 @@
 		{
 			"type": "single",
 			"resource": "clobnet/games/kart/kart_orange"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:body/backpack"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:body/bee_nest"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:body/leather_backpack"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:body/red_parrot"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:body/squirrel_tail"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/amogus/amogus"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/amogus_body_icon"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/amogus_eye_icon"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/locomotive/locomotive"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/star_kite/star_kite"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:hat/chef_hat"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:hat/cowboy_hat"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:hat/snow_fox_sleeping"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:hat/witch_hat"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:cursor_default"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:cursor_pointer"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:cursor_scroll"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:dyeing_pointer"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:fullscreen_black_item"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:tutorial"
+		},
+		{
+			"type": "single",
+			"resource": "z_cosmetics:tutorial_dont_show_again"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/ballon_cluster/ballon_cluster"
+		},
+		{
+			"type": "single",
+			"resource": "cosmetics:entity/wings_enderdragon/dragon"
 		}
 	]
 }
